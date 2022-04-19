@@ -1,0 +1,17 @@
+package excercise;
+
+import java.util.ArrayList;
+
+public class Student {
+	private int studentID;
+	private String studentName;
+	private ArrayList<Subject> subjectList;
+	
+	public Student(int studentID, String studentName) {
+		super();
+		this.studentID = studentID;
+		this.studentName = studentName;
+	}
+	
+
+}

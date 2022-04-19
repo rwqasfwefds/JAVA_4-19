@@ -1,0 +1,6 @@
+package excercise;
+
+public class Subject {
+	private String name;
+	private int scorePoint;
+}

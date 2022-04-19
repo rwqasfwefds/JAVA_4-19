@@ -1,0 +1,14 @@
+package excercise2;
+
+public abstract class Car {
+	public abstract void drive();
+	public abstract void stop();
+	
+//	운전하기 위한 메소드
+//	순서 1 : 시동 켜기 메소드
+	public void startCar() {
+		System.out.println("시동을 켭니다.");
+	}
+	
+//	순서 4 : 시동 끄기 메소드
+}

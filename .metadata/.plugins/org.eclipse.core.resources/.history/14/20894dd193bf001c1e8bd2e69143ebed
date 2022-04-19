@@ -1,0 +1,26 @@
+package excercise2;
+
+public class StrategyTest {
+
+	public static void main(String[] args) {
+		Strategy strategy = null;
+		Soldier rambo = new Soldier();
+		
+//		총을 람보에게 전달해서 전투를 수행하게 만드는 부분
+		strategy = new StrategyGun(); // 출력 : "탕, 타당, 타다당"
+		rambo.runContext(strategy);
+		
+		System.out.println("------------------");
+		
+//		검을 람보에게 전달해서 전투를 수행하게 만드는 부분
+		strategy = new StrategySword(); // 출력 : "챙, 채챙, 채채챙"
+		rambo.runContext(strategy);
+		
+		System.out.println("------------------");
+		
+//		활을 람보에게 전달해서 전투를 수행하게 만드는 부분
+		strategy = new StrategyBow(); // 출력 : "슉, 슈슉, 슈슈슉"
+		rambo.runContext(strategy);
+	}
+
+}

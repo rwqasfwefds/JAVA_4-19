@@ -1,0 +1,27 @@
+package excercise;
+
+public class ComputerTest {
+
+	public static void main(String[] args) {
+		Computer c1 = new DeskTop();
+		Computer c2 = new NoteBook();
+		Computer c3 = new WorkStation();
+		
+//		DeskTop 출력
+		c1.display(); // 출력 : "DeskTop Computer"
+		c1.typeing(); // 출력 : "DeskTop Typing"
+		
+		System.out.println("------------");
+		
+		c2.display();
+		c2.typeing();
+		
+		System.out.println("------------");
+		
+		c3.display();
+		c3.typeing();
+		
+		System.out.println("------------");
+	}
+
+}

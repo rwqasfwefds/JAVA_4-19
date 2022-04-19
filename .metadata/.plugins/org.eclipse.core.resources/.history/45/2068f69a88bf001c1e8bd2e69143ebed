@@ -1,0 +1,10 @@
+package ex2;
+
+public class BookTest {
+
+	public static void main(String[] args) {
+//		배열의 선언
+		Book[] book = new Book[5];
+	}
+
+}

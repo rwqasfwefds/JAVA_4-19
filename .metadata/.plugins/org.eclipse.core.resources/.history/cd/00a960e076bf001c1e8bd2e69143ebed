@@ -1,0 +1,8 @@
+package excercise;
+
+public class Subway {
+//	맴버 변수 : 지하철 노선번호, 승객수, 지하철 수입
+	public void take(int money) {
+	}
+	
+}

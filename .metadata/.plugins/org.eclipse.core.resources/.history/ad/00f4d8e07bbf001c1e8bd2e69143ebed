@@ -1,0 +1,27 @@
+package excercise2;
+
+public class Bus {
+//	멤버 변수 : 버스 번호, 승객 수, 버스 수입
+	private int number;
+	private int passenger;
+	private int money;
+	
+//	매개변수 1개짜리 생성자 : 버스번호
+	public Bus(int number) {
+		this.number = number;
+	}
+	
+//	승객이 낸 돈을 받는 메소드
+	public void take(int money) {
+//		버스 돈 증가
+		this.money += money;
+//		승객 수 증가
+		++this.passenger;
+	}
+	
+//	버스의 승객수와 버스 잔액을 출력
+	public void showInfo() {
+//		출력 : "버스 " + 버스번호 + "번의 승객은" + 승객수 + "명이고, 수입은 " + 버스수입 + "원 입니다."
+		System.out.println("버스" + this.number + "번의 승객은 " + this.passenger + "명이고, 수입은 " + this.money + "원 입니다.");
+	}
+}

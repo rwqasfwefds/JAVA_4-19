@@ -1,0 +1,11 @@
+package excercise2;
+
+public class StrategyBow implements Strategy {
+
+	@Override
+	public void runStrategy() {
+		// TODO Auto-generated method stub
+		System.out.println("½µ, ½´½´½µ, ½Ã¹Ù·¯¸¶");
+	}
+
+}

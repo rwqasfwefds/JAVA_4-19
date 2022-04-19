@@ -1,0 +1,12 @@
+package ex3;
+
+public class StrategyTest {
+
+	public static void main(String[] args) {
+		Strategy strategy = null;
+		Soldier rambo = new Soldier();
+		
+		strategy = new Strategy();
+	}
+
+}

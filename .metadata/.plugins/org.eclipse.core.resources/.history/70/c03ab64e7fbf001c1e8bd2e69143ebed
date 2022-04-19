@@ -1,0 +1,25 @@
+package excercise;
+
+import java.util.ArrayList;
+
+public class Student {
+	private int studentID;
+	private String studentName;
+	private ArrayList<Subject> subjectList;
+	
+//	매개변수 2개짜리 생성자 정의
+	public Student(int studentID, String studentName) {
+		super();
+		this.studentID = studentID;
+		this.studentName = studentName;
+	}
+	
+	public void addSubject(String studentName, int studentID) {
+		
+	}
+	
+	public void showStudentinfo() {
+		
+	}
+
+}
